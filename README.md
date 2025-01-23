@@ -11,13 +11,7 @@ A Visual Studio Code theme inspired by the beautiful [Kanagawa.nvim](https://git
 
 ### Comparison between Neovim and VSCode
 
-#### Neovim with Kanagawa.nvim
-
-![Neovim Kanagawa](./screenshots/neovim-kanagawa.png)
-
-#### VSCode with Kanagawa.vscode
-
-![VSCode Kanagawa](./screenshots/vscode-kanagawa.png)
+![WindowsTerminal_MbN0TYSBoU](https://github.com/user-attachments/assets/28979cbe-5d4a-4482-92ec-c4ef5c2d2258)
 
 ## Installation
 
