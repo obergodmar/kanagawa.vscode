@@ -1,86 +1,55 @@
-<p align="center">
-  <h2 align="center">🌊 KANAGAWA.vscode 🌊</h2>
-  <p align="center">
-      <a href="https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa">
-        <img src="https://vsmarketplacebadge.apphb.com/version/qufiwefefwoyn.kanagawa.svg" />
-      </a>
-      <a href="https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa">
-        <img src="https://img.shields.io/visual-studio-marketplace/i/qufiwefefwoyn.kanagawa" />
-      </a>
-      <a href="https://marketplace.visualstudio.com/items?itemName=qufiwefefwoyn.kanagawa">
-        <img src="https://vsmarketplacebadge.apphb.com/rating-star/qufiwefefwoyn.kanagawa.svg" />
-      </a>
-  </p>
-</p>
+# Kanagawa for VSCode
 
-<p align="center">
-  <img src="assets/main.png" width="600" >
-</p>
+A Visual Studio Code theme inspired by the beautiful [Kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) Neovim theme. This theme is based on the original [kanagawa.vscode](https://github.com/barklan/kanagawa.vscode) repository but has been updated and adjusted to match the Neovim Kanagawa theme as closely as possible.
 
-<br>
+## Features
 
-<p align="center">
-VS Code port of amazing <a href="https://github.com/rebelot/kanagawa.nvim">KANAGAWA.nvim</a> colorscheme by rebelot.
-Credit for initial port goes to <a href="https://github.com/conner-calhoun">conner-calhoun</a>.
-</p>
+- Updated colors to closely match [Kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim).
+- Adjusted semantic tokens for better syntax highlighting.
 
-<p align="center">
-  <h2 align="center"><img src="assets/screenshot.png"></h2>
-</p>
+## Screenshots
 
-## Semantic tokens
+### Comparison between Neovim and VSCode
 
-Theme supports and recommends enabling semantic tokens.
+#### Neovim with Kanagawa.nvim
 
-### TypeScript
+![Neovim Kanagawa](./screenshots/neovim-kanagawa.png)
 
-Enabled by default.
+#### VSCode with Kanagawa.vscode
 
-### Go
+![VSCode Kanagawa](./screenshots/vscode-kanagawa.png)
 
-```json
-{
-  "gopls.ui.semanticTokens": true
-}
-```
+## Installation
 
-#### rust-analyzer
+1. Clone or download this repository:
 
-```json
-{
-  "rust-analyzer.highlighting.strings": true
-}
-```
+   ```bash
+   git clone https://github.com/obergodmar/kanagawa.vscode.git
+   ```
 
-#### `C#`
+2. Open the cloned repository in VSCode.
 
-```json
-{
-  "csharp.semanticHighlighting.enabled": true
-}
-```
+3. Run the following command in the Command Palette (Ctrl+Shift+P or Cmd+Shift+P):
 
-## Customization
+   ```
+   Developer: Install Extension from Location
+   ```
 
-### Comments
+4. Select the folder where the repository was cloned.
 
-If you prefer comments to stand out in your code - this looks nice:
+5. Activate the theme:
+   - Open the Command Palette again and search for `Preferences: Color Theme`.
+   - Select "Kanagawa" from the list.
 
-```json
-{
-  "editor.tokenColorCustomizations": {
-    "[Kanagawa]": {
-      "comments": {
-        "foreground": "#FF9E3B"
-      }
-    }
-  }
-}
-```
+## Contributing
 
-Paste it in your `settings.json`.
+Feel free to submit issues or pull requests if you find bugs, want to suggest improvements, or contribute additional features.
 
-## Misc
+## Acknowledgments
 
-You can find this theme's colors for different terminal emulators [here](https://github.com/rebelot/kanagawa.nvim#extras).
-If you like this theme, consider supporting [original author](https://github.com/rebelot/kanagawa.nvim#donate).
+- [barklan/kanagawa.vscode](https://github.com/barklan/kanagawa.vscode) for the original VSCode theme.
+- [rebelot/kanagawa.nvim](https://github.com/rebelot/kanagawa.nvim) for the inspiration and reference for the color palette.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
